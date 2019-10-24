@@ -16,7 +16,7 @@ const routes: Routes = [
     component: HamburguesaPage,
   children: [
     {
-      path: 'inicio', loadChildren: './inicio/inicio.module#InicioPageModule'
+      path: 'inicio', loadChildren: '../inicio/inicio.module#InicioPageModule'
     }
     // ,
     // {
@@ -24,7 +24,7 @@ const routes: Routes = [
     // }
     ,
     {
-      path: 'unidad', loadChildren: './unidad/unidad.module#UnidadPageModule'
+      path: 'unidad', loadChildren: '../unidad/unidad.module#UnidadPageModule'
     }
     // ,
     // {
