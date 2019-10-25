@@ -1,3 +1,4 @@
+import { FooterComponent } from './footer/footer.component';
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,7 +15,7 @@ import { environment } from '../environments/environment';
 import { AngularFirestoreModule, FirestoreSettingsToken } from '@angular/fire/firestore';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,FooterComponent],
   entryComponents: [],
   imports: [
     BrowserModule, IonicModule.forRoot(),
