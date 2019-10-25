@@ -24,3 +24,29 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.title-temas{
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-temas{
+height:40%;
+width: 40%;
+position: relative;
+margin-right: auto;
+margin-left: auto;
+margin-top: 30px;
+}
+
+.video{
+padding-top:20px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+
+}
